@@ -7,17 +7,61 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Cocktail Finder</h1>
+    <header id="header">
+        <div class="container">
+            <div class="logo-container">
+                <img src="images/logo.jpg" alt="The Cocktail Project Logo" class="logo">
+                <h1>Cocktail Finder</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#cocktails">Ingredients</a></li>
+                    <li><a href="#products">Bottles</a></li>
+                    <li><a href="#making">Recipes</a></li>
+                    <li><a href="#partner">Winetails</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-
     <main>
         <div id="app">
-            
+            <input type="text" id="search-bar" placeholder="Search cocktail by name">
+            <button id="search-button">Search</button>
+            <div id="cocktail-list"></div>
 
+            <div id="cocktail-details">
+                <h2 id="cocktail-name"></h2>
+                <img id="cocktail-image" src="" alt="Cocktail Image">
+                <p id="cocktail-ingredients"></p>
+                <p id="cocktail-instructions"></p>
         </div>
 
+        <div id="Image-gallery" class="gallery">
+            <source> <img src="images/blood of jesus.avif" alt="Blood of Jesus">
+            <source> <img src="images/bloody mary.avif" alt="Bloody Mary">
+            <source> <img src="images/boyfriend snatcher.avif" alt="Brandy Alexander">
+            <source> <img src="images/chill pill.avif" alt="chill pill">
+            <source> <img src="images/cloud-9.avif" alt="cloud-9">
+            <source> <img src="images/green lantern.avif" alt="green lantern">
+            <source> <img src="images/happy ending.avif" alt="happy ending">
+            <source> <img src="images/locs.avif" alt="locs">
+            <source> <img src="images/long island.avif" alt="long island">
+            <source> <img src="images/midnight mistress.avif" alt="midnight mistress">
+            <source> <img src="images/mojito.avif" alt="mojito">
+            <source> <img src="images/pain killer.avif" alt="pain killer">
+            <source> <img src="images/pink lady.avif" alt="pink lady">
+            <source> <img src="images/rocky woods.avif" alt="rocky woods">
+            <source> <img src="images/screw driver.avif" alt="screw driver">
+            <source> <img src="images/sex on the beach.avif" alt="sex on the beach">
+            <source> <img src="images/smooth blue lexus.avif" alt="smooth blue lexus">
+            <source> <img src="images/strawberry splush.avif" alt="strawberry splush">
+            <source> <img src="images/summer vibes.avif" alt="summer vibes">
+            <source> <img src="images/sunrise.avif" alt="sunrise">
+            <source> <img src="images/sunset.avif" alt="sunset">
+            <source> <img src="images/whiskey sour.avif" alt="whiskey sour">
+        </div>
+    </div>
     </main>
-
 </body>
 </html>

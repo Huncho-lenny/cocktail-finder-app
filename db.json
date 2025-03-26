@@ -1,0 +1,370 @@
+{
+    "cocktails": [
+      {
+        "id": 1,
+        "name": "Mojito",
+        "image": "https://example.com/images/mojito.jpg",
+        "ingredients": [
+          "2 oz White Rum",
+          "1 oz Lime Juice",
+          "2 tsp Sugar",
+          "Mint Leaves",
+          "Club Soda"
+        ],
+        "description": "A refreshing Cuban cocktail with mint and lime."
+      },
+      {
+        "id": 2,
+        "name": "Old Fashioned",
+        "image": "https://example.com/images/old-fashioned.jpg",
+        "ingredients": [
+          "2 oz Bourbon or Rye Whiskey",
+          "1 Sugar Cube",
+          "2 dashes Angostura Bitters",
+          "Orange Peel"
+        ],
+        "description": "A classic whiskey cocktail with bitters and sugar."
+      },
+      {
+        "id": 3,
+        "name": "Margarita",
+        "image": "https://example.com/images/margarita.jpg",
+        "ingredients": [
+          "2 oz Tequila",
+          "1 oz Lime Juice",
+          "1 oz Triple Sec",
+          "Salt (for rim)"
+        ],
+        "description": "A tangy tequila-based cocktail with lime and orange liqueur."
+      },
+      {
+        "id": 4,
+        "name": "Pina Colada",
+        "image": "https://example.com/images/pina-colada.jpg",
+        "ingredients": [
+          "2 oz White Rum",
+          "1 oz Coconut Cream",
+          "3 oz Pineapple Juice",
+          "Pineapple Slice (for garnish)"
+        ],
+        "description": "A creamy tropical cocktail with pineapple and coconut."
+      },
+      {
+        "id": 5,
+        "name": "Martini",
+        "image": "https://example.com/images/martini.jpg",
+        "ingredients": [
+          "2 oz Gin",
+          "1 oz Dry Vermouth",
+          "Lemon Twist or Olive (for garnish)"
+        ],
+        "description": "A sophisticated and dry cocktail with gin and vermouth."
+      },
+      {
+        "id": 6,
+        "name": "Cosmopolitan",
+        "image": "https://example.com/images/cosmopolitan.jpg",
+        "ingredients": [
+          "1.5 oz Vodka",
+          "1 oz Cranberry Juice",
+          "0.5 oz Lime Juice",
+          "0.5 oz Triple Sec"
+        ],
+        "description": "A stylish vodka-based cocktail with cranberry and lime."
+      },
+      {
+        "id": 7,
+        "name": "Whiskey Sour",
+        "image": "https://example.com/images/whiskey-sour.jpg",
+        "ingredients": [
+          "2 oz Whiskey",
+          "1 oz Lemon Juice",
+          "0.5 oz Simple Syrup",
+          "Cherry or Orange Slice (for garnish)"
+        ],
+        "description": "A tangy and slightly sweet cocktail with whiskey and citrus."
+      },
+      {
+        "id": 8,
+        "name": "Daiquiri",
+        "image": "https://example.com/images/daiquiri.jpg",
+        "ingredients": [
+          "2 oz White Rum",
+          "1 oz Lime Juice",
+          "0.5 oz Simple Syrup"
+        ],
+        "description": "A simple and zesty cocktail with lime and rum."
+      },
+      {
+        "id": 9,
+        "name": "Negroni",
+        "image": "https://example.com/images/negroni.jpg",
+        "ingredients": [
+          "1 oz Gin",
+          "1 oz Campari",
+          "1 oz Sweet Vermouth",
+          "Orange Peel (for garnish)"
+        ],
+        "description": "A bitter yet balanced cocktail with gin and vermouth."
+      },
+      {
+        "id": 10,
+        "name": "Bloody Mary",
+        "image": "https://example.com/images/bloody-mary.jpg",
+        "ingredients": [
+          "2 oz Vodka",
+          "4 oz Tomato Juice",
+          "0.5 oz Lemon Juice",
+          "2 dashes Worcestershire Sauce",
+          "Hot Sauce (to taste)",
+          "Celery Stick (for garnish)"
+        ],
+        "description": "A savory cocktail with vodka and spiced tomato juice."
+      },
+      {
+        "id": 11,
+        "name": "Mai Tai",
+        "image": "https://example.com/images/mai-tai.jpg",
+        "ingredients": [
+          "1 oz Light Rum",
+          "1 oz Dark Rum",
+          "0.5 oz Orange Curacao",
+          "0.5 oz Orgeat Syrup",
+          "0.75 oz Lime Juice"
+        ],
+        "description": "A tropical rum cocktail with citrus and almond flavors."
+      },
+      {
+        "id": 12,
+        "name": "Screwdriver",
+        "image": "https://example.com/images/screwdriver.jpg",
+        "ingredients": [
+          "2 oz Vodka",
+          "4 oz Orange Juice",
+          "Orange Slice (for garnish)"
+        ],
+        "description": "A simple and refreshing cocktail with vodka and orange juice."
+      },
+      {
+        "id": 13,
+        "name": "Long Island Iced Tea",
+        "image": "https://example.com/images/long-island.jpg",
+        "ingredients": [
+          "0.5 oz Vodka",
+          "0.5 oz White Rum",
+          "0.5 oz Gin",
+          "0.5 oz Tequila",
+          "0.5 oz Triple Sec",
+          "1 oz Sour Mix",
+          "Splash of Cola"
+        ],
+        "description": "A potent mixed drink with a hint of cola."
+      },
+      {
+        "id": 14,
+        "name": "French 75",
+        "image": "https://example.com/images/french-75.jpg",
+        "ingredients": [
+          "1 oz Gin",
+          "0.5 oz Lemon Juice",
+          "0.5 oz Simple Syrup",
+          "Champagne"
+        ],
+        "description": "A fizzy and elegant gin cocktail topped with champagne."
+      },
+      {
+        "id": 15,
+        "name": "Aperol Spritz",
+        "image": "https://example.com/images/aperol-spritz.jpg",
+        "ingredients": [
+          "3 oz Prosecco",
+          "2 oz Aperol",
+          "1 oz Club Soda",
+          "Orange Slice (for garnish)"
+        ],
+        "description": "A vibrant and bubbly cocktail with a hint of bitterness."
+      },
+      {
+        "id": 16,
+        "name": "Tequila Sunrise",
+        "image": "https://example.com/images/tequila-sunrise.jpg",
+        "ingredients": [
+          "2 oz Tequila",
+          "4 oz Orange Juice",
+          "Grenadine (drizzled)"
+        ],
+        "description": "A colorful tequila cocktail with orange and grenadine."
+      },
+      {
+        "id": 17,
+        "name": "Mint Julep",
+        "image": "https://example.com/images/mint-julep.jpg",
+        "ingredients": [
+          "2 oz Bourbon",
+          "0.5 oz Simple Syrup",
+          "Mint Leaves",
+          "Crushed Ice"
+        ],
+        "description": "A refreshing bourbon cocktail with mint and sugar."
+      },
+      {
+        "id": 18,
+        "name": "Amaretto Sour",
+        "image": "https://example.com/images/amaretto-sour.jpg",
+        "ingredients": [
+          "1.5 oz Amaretto",
+          "0.75 oz Lemon Juice",
+          "0.5 oz Simple Syrup",
+          "Cherry (for garnish)"
+        ],
+        "description": "A sweet and tangy drink with almond liqueur."
+      },
+      {
+        "id": 19,
+        "name": "Irish Coffee",
+        "image": "https://example.com/images/irish-coffee.jpg",
+        "ingredients": [
+          "1.5 oz Irish Whiskey",
+          "4 oz Hot Coffee",
+          "1 tsp Sugar",
+          "Whipped Cream (for topping)"
+        ],
+        "description": "A warm cocktail with coffee, Irish whiskey, and cream."
+      },
+      {
+        "id": 20,
+        "name": "Gin Fizz",
+        "image": "https://example.com/images/gin-fizz.jpg",
+        "ingredients": [
+          "2 oz Gin",
+          "1 oz Lemon Juice",
+          "0.5 oz Simple Syrup",
+          "Egg White (optional)",
+          "Club Soda"
+        ],
+        "description": "A light and frothy cocktail with gin and soda."
+      },
+      {
+        "id": 21,
+        "name": "Rum Punch",
+        "image": "https://example.com/images/rum-punch.jpg",
+        "ingredients": [
+          "1 oz Dark Rum",
+          "1 oz Light Rum",
+          "2 oz Orange Juice",
+          "2 oz Pineapple Juice",
+          "Splash of Grenadine"
+        ],
+        "description": "A fruity cocktail with tropical juices and rum."
+      },
+      {
+        "id": 22,
+        "name": "Sea Breeze",
+        "image": "https://example.com/images/sea-breeze.jpg",
+        "ingredients": [
+          "1.5 oz Vodka",
+          "3 oz Cranberry Juice",
+          "1 oz Grapefruit Juice"
+        ],
+        "description": "A light and refreshing vodka cocktail with a citrus twist."
+      },
+      {
+        "id": 23,
+        "name": "Bellini",
+        "image": "https://example.com/images/bellini.jpg",
+        "ingredients": [
+          "2 oz Peach Puree",
+          "4 oz Prosecco"
+        ],
+        "description": "A fruity and bubbly drink with peach and Prosecco."
+      },
+      {
+        "id": 24,
+        "name": "Caipirinha",
+        "image": "https://example.com/images/caipirinha.jpg",
+        "ingredients": [
+          "2 oz Cachaça",
+          "1 Lime (cut into wedges)",
+          "2 tsp Sugar"
+        ],
+        "description": "Brazil's national cocktail with lime and cachaça."
+      },
+      {
+        "id": 25,
+        "name": "Hurricane",
+        "image": "https://example.com/images/hurricane.jpg",
+        "ingredients": [
+          "2 oz Light Rum",
+          "2 oz Dark Rum",
+          "1 oz Passion Fruit Juice",
+          "1 oz Lime Juice",
+          "0.5 oz Simple Syrup",
+          "Grenadine"
+        ],
+        "description": "A bold and fruity rum cocktail with a tropical flair."
+      },
+      {
+        "id": 26,
+        "name": "Tom Collins",
+        "image": "https://example.com/images/tom-collins.jpg",
+        "ingredients": [
+          "2 oz Gin",
+          "1 oz Lemon Juice",
+          "0.5 oz Simple Syrup",
+          "Club Soda"
+        ],
+        "description": "A fizzy and citrusy gin cocktail."
+      },
+      {
+        "id": 27,
+        "name": "Paloma",
+        "image": "https://example.com/images/paloma.jpg",
+        "ingredients": [
+          "2 oz Tequila",
+          "2 oz Grapefruit Juice",
+          "0.5 oz Lime Juice",
+          "Club Soda",
+          "Salt (for rim)"
+        ],
+        "description": "A refreshing tequila drink with grapefruit and lime."
+      },
+      {
+        "id": 28,
+        "name": "Blue Lagoon",
+        "image": "https://example.com/images/blue-lagoon.jpg",
+        "ingredients": [
+          "1.5 oz Vodka",
+          "1 oz Blue Curaçao",
+          "Lemonade",
+          "Lemon Slice (for garnish)"
+        ],
+        "description": "A vibrant blue cocktail with vodka and citrus flavors."
+      },
+      {
+        "id": 29,
+        "name": "Cuba Libre",
+        "image": "https://example.com/images/cuba-libre.jpg",
+        "ingredients": [
+          "2 oz White Rum",
+          "4 oz Cola",
+          "0.5 oz Lime Juice",
+          "Lime Wedge (for garnish)"
+        ],
+        "description": "A simple and popular rum cocktail with cola and lime."
+      },
+      {
+        "id": 30,
+        "name": "Zombie",
+        "image": "https://example.com/images/zombie.jpg",
+        "ingredients": [
+          "1 oz Light Rum",
+          "1 oz Dark Rum",
+          "1 oz Apricot Brandy",
+          "2 oz Pineapple Juice",
+          "1 oz Lime Juice"
+        ],
+        "description": "A strong, fruity cocktail with multiple types of rum."
+      }
+    ]
+  }
+  
