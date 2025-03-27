@@ -121,7 +121,6 @@ nav ul li a:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
-
 .cocktail-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -130,6 +129,10 @@ nav ul li a:hover {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
+    background-color: #f7f7f7; 
+    color: #333333; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .cocktail-card {
