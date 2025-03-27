@@ -124,14 +124,36 @@ nav ul li a:hover {
 
 footer {
     text-align: center;
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #000;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #333;
     color: white;
-    font-size: larger;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-footer p a {
-    color: #0abde3;
+footer p {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+footer i {
+    margin-right: 10px;
+    font-size: 40px;
+    vertical-align: middle;
+    color: #f39c12;
+}
+
+footer a {
+    color: #f39c12;
     text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #e67e22;
+    transition: color 0.3s ease;
 }
