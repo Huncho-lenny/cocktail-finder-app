@@ -63,7 +63,7 @@
       {
         "id": 6,
         "name": "Cosmopolitan",
-        "image": "https://example.com/images/cosmopolitan.jpg",
+        "image": "images/cosmopolitan.avif",
         "ingredients": [
           "1.5 oz Vodka",
           "1 oz Cranberry Juice",
@@ -75,7 +75,7 @@
       {
         "id": 7,
         "name": "Whiskey Sour",
-        "image": "https://example.com/images/whiskey-sour.jpg",
+        "image": "images/whiskey sour.avif",
         "ingredients": [
           "2 oz Whiskey",
           "1 oz Lemon Juice",
@@ -87,7 +87,7 @@
       {
         "id": 8,
         "name": "Daiquiri",
-        "image": "https://example.com/images/daiquiri.jpg",
+        "image": "images/daiquiri.avif",
         "ingredients": [
           "2 oz White Rum",
           "1 oz Lime Juice",
@@ -98,7 +98,7 @@
       {
         "id": 9,
         "name": "Negroni",
-        "image": "https://example.com/images/negroni.jpg",
+        "image": "images/negroni.avif",
         "ingredients": [
           "1 oz Gin",
           "1 oz Campari",
@@ -110,7 +110,7 @@
       {
         "id": 10,
         "name": "Bloody Mary",
-        "image": "https://example.com/images/bloody-mary.jpg",
+        "image": "images/bloody mary.avif",
         "ingredients": [
           "2 oz Vodka",
           "4 oz Tomato Juice",
@@ -124,7 +124,7 @@
       {
         "id": 11,
         "name": "Mai Tai",
-        "image": "https://example.com/images/mai-tai.jpg",
+        "image": "images/mai tai.avif",
         "ingredients": [
           "1 oz Light Rum",
           "1 oz Dark Rum",
@@ -137,7 +137,7 @@
       {
         "id": 12,
         "name": "Screwdriver",
-        "image": "https://example.com/images/screwdriver.jpg",
+        "image": "images/screw driver.avif",
         "ingredients": [
           "2 oz Vodka",
           "4 oz Orange Juice",
@@ -148,7 +148,7 @@
       {
         "id": 13,
         "name": "Long Island Iced Tea",
-        "image": "https://example.com/images/long-island.jpg",
+        "image": "images/long island iced tea.avif",
         "ingredients": [
           "0.5 oz Vodka",
           "0.5 oz White Rum",
@@ -163,7 +163,7 @@
       {
         "id": 14,
         "name": "French 75",
-        "image": "https://example.com/images/french-75.jpg",
+        "image": "images/french 75.avif",
         "ingredients": [
           "1 oz Gin",
           "0.5 oz Lemon Juice",
@@ -175,7 +175,7 @@
       {
         "id": 15,
         "name": "Aperol Spritz",
-        "image": "https://example.com/images/aperol-spritz.jpg",
+        "image": "images/Aperol Spritz.avif",
         "ingredients": [
           "3 oz Prosecco",
           "2 oz Aperol",
@@ -187,7 +187,7 @@
       {
         "id": 16,
         "name": "Tequila Sunrise",
-        "image": "https://example.com/images/tequila-sunrise.jpg",
+        "image": "images/tequila sunrise.avif",
         "ingredients": [
           "2 oz Tequila",
           "4 oz Orange Juice",
@@ -198,7 +198,7 @@
       {
         "id": 17,
         "name": "Mint Julep",
-        "image": "https://example.com/images/mint-julep.jpg",
+        "image": "images/mint julep.webp",
         "ingredients": [
           "2 oz Bourbon",
           "0.5 oz Simple Syrup",
@@ -210,7 +210,7 @@
       {
         "id": 18,
         "name": "Amaretto Sour",
-        "image": "https://example.com/images/amaretto-sour.jpg",
+        "image": "images/amareto sour.avif",
         "ingredients": [
           "1.5 oz Amaretto",
           "0.75 oz Lemon Juice",
@@ -222,7 +222,7 @@
       {
         "id": 19,
         "name": "Irish Coffee",
-        "image": "https://example.com/images/irish-coffee.jpg",
+        "image": "images/irsish coffee.avif",
         "ingredients": [
           "1.5 oz Irish Whiskey",
           "4 oz Hot Coffee",
@@ -234,7 +234,7 @@
       {
         "id": 20,
         "name": "Gin Fizz",
-        "image": "https://example.com/images/gin-fizz.jpg",
+        "image": "images/giz fizz.avif",
         "ingredients": [
           "2 oz Gin",
           "1 oz Lemon Juice",
@@ -247,7 +247,7 @@
       {
         "id": 21,
         "name": "Rum Punch",
-        "image": "https://example.com/images/rum-punch.jpg",
+        "image": "images/rum punch.avif",
         "ingredients": [
           "1 oz Dark Rum",
           "1 oz Light Rum",
@@ -260,7 +260,7 @@
       {
         "id": 22,
         "name": "Sea Breeze",
-        "image": "https://example.com/images/sea-breeze.jpg",
+        "image": "images/sea breeze.avif",
         "ingredients": [
           "1.5 oz Vodka",
           "3 oz Cranberry Juice",
@@ -271,7 +271,7 @@
       {
         "id": 23,
         "name": "Bellini",
-        "image": "https://example.com/images/bellini.jpg",
+        "image": "images/bellini.avif",
         "ingredients": [
           "2 oz Peach Puree",
           "4 oz Prosecco"
@@ -281,7 +281,7 @@
       {
         "id": 24,
         "name": "Caipirinha",
-        "image": "https://example.com/images/caipirinha.jpg",
+        "image": "images/caiprinha.avif",
         "ingredients": [
           "2 oz Cachaça",
           "1 Lime (cut into wedges)",
@@ -292,7 +292,7 @@
       {
         "id": 25,
         "name": "Hurricane",
-        "image": "https://example.com/images/hurricane.jpg",
+        "image": "images/hurricane-cocktail.avif",
         "ingredients": [
           "2 oz Light Rum",
           "2 oz Dark Rum",
@@ -306,7 +306,7 @@
       {
         "id": 26,
         "name": "Tom Collins",
-        "image": "https://example.com/images/tom-collins.jpg",
+        "image": "images/tom-collins.jpg",
         "ingredients": [
           "2 oz Gin",
           "1 oz Lemon Juice",
@@ -318,7 +318,7 @@
       {
         "id": 27,
         "name": "Paloma",
-        "image": "https://example.com/images/paloma.jpg",
+        "image": "images/paloma.avif",
         "ingredients": [
           "2 oz Tequila",
           "2 oz Grapefruit Juice",
@@ -331,7 +331,7 @@
       {
         "id": 28,
         "name": "Blue Lagoon",
-        "image": "https://example.com/images/blue-lagoon.jpg",
+        "image": "images/blue-lagoon.avif",
         "ingredients": [
           "1.5 oz Vodka",
           "1 oz Blue Curaçao",
@@ -343,7 +343,7 @@
       {
         "id": 29,
         "name": "Cuba Libre",
-        "image": "https://example.com/images/cuba-libre.jpg",
+        "image": "images/cuba-libre.avif",
         "ingredients": [
           "2 oz White Rum",
           "4 oz Cola",
@@ -355,7 +355,7 @@
       {
         "id": 30,
         "name": "Zombie",
-        "image": "https://example.com/images/zombie.jpg",
+        "image": "images/zombie.avif",
         "ingredients": [
           "1 oz Light Rum",
           "1 oz Dark Rum",
