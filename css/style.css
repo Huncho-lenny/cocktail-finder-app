@@ -17,7 +17,6 @@ body {
     height: 100vh; 
     display: flex;
     flex-direction: column;
-    backdrop-filter: blur(10px);
 }
 
 
@@ -129,18 +128,23 @@ nav ul li a:hover {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: #f7f7f7; 
-    color: #333333; 
     border-radius: 8px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-clip: border-box;
+    background-attachment: scroll;
+    border: 1px , solid black;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.cocktail-card {
-    background: white;
+.drink-card {
+    background-color: lightgray;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 3px 10px rgba(0,0,0,0.1);
     transition: transform 0.3s, box-shadow 0.3s;
+
 }
 
 .cocktail-card:hover {
