@@ -139,6 +139,7 @@ nav ul li a:hover {
 }
 
 .drink-card {
+    cursor: pointer;
     background-color: lightgray;
     border-radius: 8px;
     overflow: hidden;
@@ -150,12 +151,21 @@ nav ul li a:hover {
         height: 200px;
         width: 200px;
     }
-
 }
 
 .cocktail-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+
+.cocktail-card image {
+    border-radius: 8px;
+    transition: transform 0,3s ;
+}
+
+.cocktail-card:hover img {
+    transform: scale(1.05);
 }
 
 .cocktail-image {
