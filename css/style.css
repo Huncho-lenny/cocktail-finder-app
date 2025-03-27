@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -13,21 +15,22 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: top;
-    backdrop-filter: blur(5px);
-    backdrop-filter: brightness(0.5);
+    backdrop-filter: blur(5px) brightness(0.5);
 }
 
 #header {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 20px;
     color: white;
+    width: 100%;
 }
 
 #header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .logo-container {
@@ -42,18 +45,25 @@ body {
     border-radius: 50%; 
     object-fit: cover;
     border: 2px solid white;
+    transition: transform 0.3s;
+}
+
+.logo:hover {
+    transform: rotate(15deg);
 }
 
 h1 {
     font-size: 28px;
     font-family: "Big Shoulders Stencil", sans-serif;
     font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
 nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
+    padding-right: 20px;
 }
 
 nav ul li a {
@@ -61,40 +71,52 @@ nav ul li a {
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
-    transition: color 0.3s ease;
+    transition: all 0.3s ease;
+    padding: 5px 10px;
 }
 
 nav ul li a:hover {
-    color: #ff6347; 
+    color: #ff6347;
+    text-decoration: underline;
 }
 
 #app {
     margin: 50px auto;
     text-align: center;
+    width: 90%;
+    max-width: 1200px;
+    background-color: rgba(0,0,0,0.6);
+    padding: 30px;
+    border-radius: 15px;
 }
 
 #search-bar {
-    width: 400px;
-    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    padding: 12px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
+    margin-bottom: 20px;
 }
 
 #search-button {
-    padding: 10px 20px;
-    margin-left: 10px;
+    padding: 12px 25px;
     font-size: 16px;
     border: none;
     border-radius: 5px;
     background-color: #000;
     color: white;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
+    display: block;
+    margin: 0 auto;
 }
 
 #search-button:hover {
     background-color: #ff6347;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 #image-gallery {
@@ -102,7 +124,8 @@ nav ul li a:hover {
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
-    margin-top: 20px;
+    margin-top: 40px;
+    padding: 20px;
 }
 
 .gallery img {
@@ -111,49 +134,68 @@ nav ul li a:hover {
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
 }
 
 .gallery img:hover {
     transform: scale(1.1);
-}
-
-#contact p {
-    font-size: 18px;
+    border-color: #ff6347;
 }
 
 footer {
     text-align: center;
     margin: 20px auto;
-    padding: 20px;
-    background-color: #333;
+    padding: 30px;
+    background-color: rgba(51,51,51,0.9);
     color: white;
-    width: 80%;
+    width: 90%;
     max-width: 800px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 footer p {
-    margin: 10px 0;
-    font-size: 20px;
+    margin: 15px 0;
+    font-size: 18px;
+    line-height: 1.6;
 }
 
 footer i {
     margin-right: 10px;
-    font-size: 40px;
+    font-size: 32px;
     vertical-align: middle;
     color: #f39c12;
+    transition: transform 0.3s;
+}
+
+footer i:hover {
+    transform: scale(1.2);
 }
 
 footer a {
     color: #f39c12;
     text-decoration: none;
     font-weight: bold;
+    position: relative;
 }
 
 footer a:hover {
-    text-decoration: underline;
     color: #e67e22;
-    transition: color 0.3s ease;
+}
+
+footer a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #e67e22;
+    transform: scaleX(0);
+    transition: transform 0.3s;
+}
+
+footer a:hover::after {
+    transform: scaleX(1);
 }

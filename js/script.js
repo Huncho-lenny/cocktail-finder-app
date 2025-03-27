@@ -1,5 +1,4 @@
-const API_URL = "../db.json";
-
+const API_URL = "./db.json";
 const container = document.querySelector("#cocktail-container");
 
 async function getCocktails() {
@@ -18,11 +17,9 @@ async function getCocktails() {
 
 function renderCocktails(cocktails) {
   container.innerHTML = "";
-
   cocktails.forEach((drink) => {
     const card = document.createElement("div");
     card.className = "cocktail-card";
-
     card.innerHTML = `
       <img src="${drink.image}" alt="${drink.name}" class="cocktail-image">
       <h2 class="cocktail-title">${drink.name}</h2>
@@ -32,7 +29,6 @@ function renderCocktails(cocktails) {
         ${drink.ingredients.map((item) => `<li>${item}</li>`).join("")}
       </ul>
     `;
-
     container.appendChild(card);
   });
 }

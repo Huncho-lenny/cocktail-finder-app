@@ -1,86 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cocktail Finder</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocktail Finder | Home</title>
+        <meta name="description" content="Find cocktail recipes, ingredients, and mixing techniques">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-
- <section>
-    <header id="header">
-        <div class="container">
-            <div class="logo-container">
-                <img src="images/logo.jpg" alt="The Cocktail Project Logo" class="logo">
-                <h1>Cocktail Finder</h1>
+    <section>
+        <header id="header">
+            <div class="container">
+                <div class="logo-container">
+                    <img src="images/logo.jpg" alt="The Cocktail Project Logo" class="logo" style="max-width: 120px;">
+                    <h1>Cocktail Finder</h1>
+                </div>
+                <nav>
+                    <ul class="nav-list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#cocktails">Ingredients</a></li>
+                        <li><a href="#products">Bottles</a></li>
+                        <li><a href="#making">Recipes</a></li>
+                        <li><a href="#partner">Winetails</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#cocktails">Ingredients</a></li>
-                    <li><a href="#products">Bottles</a></li>
-                    <li><a href="#making">Recipes</a></li>
-                    <li><a href="#partner">Winetails</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-</section>
- </section>
-    <main>
-        <div id="app">
-            <input type="text" id="search-bar" placeholder="Search cocktail by name">
-            <button id="search-button">Search</button>
-            <div id="cocktail-list"></div>
+        </header>
+    </section>
 
-            <div id="cocktail-details">
+    <main id="main-content">
+        <div id="app">
+            <label for="search-bar" class="sr-only">Search cocktails</label>
+            <input type="text" id="search-bar" placeholder="Search cocktail by name" aria-label="Search cocktails">
+            <button id="search-button" type="button">Search</button>
+
+            <div id="cocktail-list" class="results-container"></div>
+
+            <div id="cocktail-details" style="display: none;">
                 <h2 id="cocktail-name"></h2>
-                <img id="cocktail-image" src="" alt="Cocktail Image">
-                <p id="cocktail-ingredients"></p>
-                <p id="cocktail-instructions"></p>
+                <img id="cocktail-image" src="" alt="Cocktail Image" class="detail-img">
+                <div id="cocktail-ingredients" class="ingredients"></div>
+                <p id="cocktail-instructions" class="instructions"></p>
             </div>
 
             <div id="image-gallery" class="gallery">
-                <img src="images/blood of jesus.avif" alt="Blood of Jesus">
-                <img src="images/bloody mary.avif" alt="Bloody Mary">
-                <img src="images/boyfriend snatcher.avif" alt="Brandy Alexander">
-                <img src="images/chill pill.avif" alt="chill pill">
-                <img src="images/cloud-9.avif" alt="cloud-9">
-                <img src="images/green lantern.avif" alt="green lantern">
-                <img src="images/happy ending.avif" alt="happy ending">
-                <img src="images/locs.avif" alt="locs">
-                <img src="images/long island.avif" alt="long island">
-                <img src="images/midnight mistress.avif" alt="midnight mistress">
-                <img src="images/mojito.avif" alt="mojito">
-                <img src="images/pain killer.avif" alt="pain killer">
-                <img src="images/pink lady.avif" alt="pink lady">
-                <img src="images/rocky woods.avif" alt="rocky woods">
-                <img src="images/screw driver.avif" alt="screw driver">
-                <img src="images/sex on the beach.avif" alt="sex on the beach">
-                <img src="images/smooth blue lexus.avif" alt="smooth blue lexus">
-                <img src="images/strawberry splush.avif" alt="strawberry splush">
-                <img src="images/summer vibes.avif" alt="summer vibes">
-                <img src="images/sunrise.avif" alt="sunrise">
-                <img src="images/sunset.avif" alt="sunset">
-                <img src="images/whiskey sour.avif" alt="whiskey sour">
+                <img src="images/blood of jesus.avif" alt="Blood of Jesus cocktail" loading="lazy">
+                <img src="images/bloody mary.avif" alt="Bloody Mary with celery" loading="lazy">
+                <img src="images/boyfriend snatcher.avif" alt="Brandy Alexander dessert cocktail">
+                <img src="images/chill pill.avif" alt="Chill pill cocktail with mint">
+                <img src="images/cloud-9.avif" alt="Cloud 9 blue cocktail">
+                <img src="images/green lantern.avif" alt="Green lantern cocktail">
+                <img src="images/happy ending.avif" alt="Happy ending shot">
+                <img src="images/locs.avif" alt="Locs tropical drink">
+                <img src="images/long island.avif" alt="Long island iced tea">
+                <img src="images/midnight mistress.avif" alt="Midnight mistress cocktail">
+                <img src="images/mojito.avif" alt="Classic mojito">
+                <img src="images/pain killer.avif" alt="Pain killer tiki drink">
+                <img src="images/pink lady.avif" alt="Pink lady cocktail">
+                <img src="images/rocky woods.avif" alt="Rocky woods whiskey drink">
+                <img src="images/screw driver.avif" alt="Screw driver with orange">
+                <img src="images/sex on the beach.avif" alt="Sex on the beach cocktail">
+                <img src="images/smooth blue lexus.avif" alt="Smooth blue lexus drink">
+                <img src="images/strawberry splush.avif" alt="Strawberry splush slushie">
+                <img src="images/summer vibes.avif" alt="Summer vibes cocktail">
+                <img src="images/sunrise.avif" alt="Tequila sunrise">
+                <img src="images/sunset.avif" alt="Malibu sunset">
+                <img src="images/whiskey sour.avif" alt="Whiskey sour with cherry">
             </div>
         </div>
     </main>   
-
-<section>
     <footer>
-          <h2>for more information contact us on our various social media handles </h2>
-        <i class="fa-brands fa-square-instagram"></i>
-        <p>INSTAGRAM<a href="#">Cocktail Finder</a></p>
-        <i class="fa-brands fa-square-x-twitter"></i>
-        <p>X:<a href="#">Cocktail finder</a></p>
-        <i class="fa-brands fa-tiktok"></i>
-        <p>TTIKTOK:<a href="#">Cocktail finder </a></p>
-        <p>Mobile Number:0770550045 </p>
-    </footer>
-</section>
+    <div class="footer-section">
+            <h2>Connect With Us</h2>
+            
+            <div class="social-media">
+                <div class="social-link">
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <p>Instagram: <a href="#">Cocktail Finder</a></p>
+                </div>
+                
+                <div class="social-link">
+                    <i class="fa-brands fa-square-x-twitter"></i>
+                    <p>X: <a href="#">Cocktail Finder</a></p>
+                </div>
+                
+                <div class="social-link">
+                    <i class="fa-brands fa-tiktok"></i>
+                    <p>TikTok: <a href="#">Cocktail Finder</a></p>
+                </div>
+            </div>
+            
+            <p class="contact-info">Customer Service: 0770 550 045 (10am-6pm)</p>
+        </footer>
+    </section>
 
     <script src="js/script.js"></script>
 </body>
