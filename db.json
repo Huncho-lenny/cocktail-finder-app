@@ -3,7 +3,7 @@
       {
         "id": 1,
         "name": "Mojito",
-        "image": "https://example.com/images/mojito.jpg",
+        "image": "images/mojito.avif",
         "ingredients": [
           "2 oz White Rum",
           "1 oz Lime Juice",
@@ -16,7 +16,7 @@
       {
         "id": 2,
         "name": "Old Fashioned",
-        "image": "https://example.com/images/old-fashioned.jpg",
+        "image": "images/old fashioned.avif",
         "ingredients": [
           "2 oz Bourbon or Rye Whiskey",
           "1 Sugar Cube",
@@ -28,7 +28,7 @@
       {
         "id": 3,
         "name": "Margarita",
-        "image": "images/blood of jesus.avif",
+        "image": "images/margarita.avif",
         "ingredients": [
           "2 oz Tequila",
           "1 oz Lime Juice",
@@ -40,7 +40,7 @@
       {
         "id": 4,
         "name": "Pina Colada",
-        "image": "https://example.com/images/pina-colada.jpg",
+        "image": "images/pina colada.avif",
         "ingredients": [
           "2 oz White Rum",
           "1 oz Coconut Cream",
@@ -52,7 +52,7 @@
       {
         "id": 5,
         "name": "Martini",
-        "image": "https://example.com/images/martini.jpg",
+        "image": "images/martini.avif",
         "ingredients": [
           "2 oz Gin",
           "1 oz Dry Vermouth",
