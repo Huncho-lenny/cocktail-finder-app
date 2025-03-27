@@ -12,7 +12,7 @@ body {
     background-image: url('https://images.unsplash.com/photo-1572116469696-31de0f17cc34?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29ja3RhaWwlMjBiYXJ8ZW58MHx8MHx8fDA%3D');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 210vh;
     display: flex;
     flex-direction: column;
     backdrop-filter: blur(5px) brightness(0.5);
