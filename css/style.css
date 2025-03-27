@@ -7,16 +7,19 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
 body {
-    background-image: url('https://images.unsplash.com/photo-1572116469696-31de0f17cc34?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29ja3RhaWwlMjBiYXJ8ZW58MHx8MHx8fDA%3D');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 210vh;
+    background-image: url('https://images.unsplash.com/photo-1572116469696-31de0f17cc34?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29ja3RhaWwlMjBiYXJ8ZW58MHx8MHx8fDA%3D'),
+                      url('https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3');
+    background-position: center top, center center; 
+    background-repeat: no-repeat, no-repeat; 
+    background-size: cover, cover; 
+    background-attachment: fixed, fixed; 
+    height: 100vh; 
     display: flex;
     flex-direction: column;
-    backdrop-filter: blur(5px) brightness(0.5);
+    backdrop-filter: blur(10px);
 }
+
 
 #header {
     background-color: rgba(0, 0, 0, 0.7);
@@ -119,28 +122,65 @@ nav ul li a:hover {
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-#image-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 40px;
-    padding: 20px;
+.cocktail-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.gallery img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease;
-    border: 2px solid transparent;
+.cocktail-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.gallery img:hover {
-    transform: scale(1.1);
-    border-color: #ff6347;
+.cocktail-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.cocktail-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.cocktail-info {
+    padding: 1.5rem;
+}
+
+.cocktail-info h3 {
+    margin: 0 0 0.5rem;
+    color: #1a1a2e;
+}
+
+.description {
+    color: #666;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.ingredients h4 {
+    margin: 1rem 0 0.5rem;
+    color: #e94560;
+    font-size: 1rem;
+}
+
+.ingredients ul {
+    padding-left: 1.2rem;
+    margin: 0;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.ingredients li {
+    margin-bottom: 0.3rem;
 }
 
 footer {
