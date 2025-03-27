@@ -1,4 +1,4 @@
-const API_URL = "path/to/cocktails.json";
+const API_URL = "../db.json";
 
 const container = document.querySelector("#cocktail-container");
 

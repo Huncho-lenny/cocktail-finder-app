@@ -118,4 +118,20 @@ nav ul li a:hover {
     transform: scale(1.1);
 }
 
+#contact p {
+    font-size: 18px;
+}
 
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #000;
+    color: white;
+    font-size: larger;
+}
+
+footer p a {
+    color: #0abde3;
+    text-decoration: none;
+}
