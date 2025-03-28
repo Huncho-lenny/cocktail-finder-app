@@ -1,4 +1,4 @@
-const API_URL = "./db.json";
+const API_URL = "https://phase-1end-project-backend.vercel.app/cocktails";
 const cocktailContainer = document.getElementById('cocktail-container');
 const searchBar = document.getElementById('search-bar');
 const searchBtn = document.getElementById('search-button');
